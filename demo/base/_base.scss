@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%;
+
+    @media only screen and (max-width: $bp-largest) {
+        font-size: 50%;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+        font-size: 40%;
+    }
+}
+
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100%;
+}
+

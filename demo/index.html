@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html class="sr">
+<head>
+    <meta charset="utf-8" />
+    <title>HTML Video & Cards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700|Source+Sans+Pro:700|Ubuntu:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="preloader/loaders.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JS -->
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body onload="myFunction()">
+
+                <div class="loader" id="loader">
+                  <div class="loader-inner ball-pulse">
+                  
+                  </div>
+                </div>
+                
+<div style="display:none;" class="page-content" id="myDiv">
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+    
+        <div class="navigation__background">&nbsp;</div>
+    
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Me</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>What I Do</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Skills</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Portfolio</a></li>
+                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Contact Me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="header">
+        <div class="bg-video">
+            <video class="bg-video__content" autoplay muted loop>
+               <source src="img/Workaholic.mp4" type="video/mp4">
+               <source src="img/Workaholic.webm" type="video/webm">
+                    Your browser is not supported!
+            </video>
+        </div>
+
+        <div class="header__logo-box">
+            <img src="img/logo-white.png" alt="Logo" class="header__logo">
+        </div>
+
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main heading-primary--type__anim-1">Hi! I'm Marielle Quizon</span>
+                <span class="heading-primary--sub">A front-end web developer</span>
+                <span class="heading-primary--sub-2">and self-improvement enthusiast</span>
+            </h1>
+
+            <a href="#" class="btn btn--white">More about me</a>
+        </div>
+    </header>
+
+    <section class="section-about">
+        <div class="row">
+            <div class="about">     
+                    <figure class="about__shape">
+                        <img src="img/Marielle-medium.jpg" alt="" class="about__img">
+                        <figcaption class="about__caption">Marielle Quizon</figcaption>
+                    </figure>  
+      
+    
+                    <div class="about__desc">
+                        <h1 class="u-margin-bottom-small heading-tertiary">Meet Marielle</h1>
+                        <p class="about-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officia architecto ea blanditiis dolor. Quas aliquid suscipit commodi possimus, tempore est odio alias aut fugiat aliquam perspiciatis ratione dolorem quaerat, odit esse hic ab quam ducimus? Quo repellendus consectetur dicta eligendi, rerum id laboriosam excepturi nam dolore voluptatibus consequuntur! Voluptatem quia possimus eius fuga adipisci, minima vero incidunt maxime vel! Labore similique, dolores impedit amet iusto incidunt accusantium nemo atque harum quas nesciunt ipsa fugit repellendus. Quos placeat obcaecati similique nulla ipsum quae reprehenderit, quaerat deserunt soluta in quis fugiat dicta. Iusto ducimus earum, id adipisci illo voluptatibus quidem commodi?</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="section-whatido">
+       <div class="row">
+           <div class="whatido">
+           <h1 class="heading-secondary u-margin-bottom-small">What I Do?</h1>
+           <p class="whatido__desc u-center-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt similique nisi consectetur illum ipsum amet saepe, esse dolorem labore quo repellat, laboriosam tempora commodi magni maiores! Quisquam temporibus dicta earum illum cumque itaque doloremque, placeat suscipit praesentium nam repudiandae perspiciatis consectetur quas et inventore aliquam nostrum blanditiis iusto! Enim!</p>
+           </div>
+        </div>
+   </section>
+
+   <section class="section-portfolio">
+    <div class="row">
+        <h1 class="heading-portfolio u-center-text u-margin-bottom-big">Portfolio</h1>
+
+        <div class="portfolio">
+            <div class="project-1 proj">
+                <div class="image-effect">
+                    <div class="hovereffect">
+                        <img class="port-img img responsive" src="img/Nexter.PNG" alt="Portfolio image 1">
+                            <div class="overlay">
+                                <h2>Nexter</h2>
+                                <p>
+                                    <a href="#">Show Code Here</a>
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <p class="proj-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat porro, quas officia nemo enim voluptate consectetur quo, architecto ipsa nihil laudantium iste voluptatem odit cum repudiandae tenetur quaerat. Omnis, temporibus.</p>
+            </div>
+
+            <div class="project-2 proj">
+                <div class="image-effect">
+                    <div class="hovereffect">
+                        <img class="port-img img responsive" src="img/Natours.PNG" alt="Portfolio image 1">
+                            <div class="overlay">
+                                <h2>Natours</h2>
+                                <p>
+                                    <a href="https://quizonmarielle.github.io/natours/">Show Code Here</a>
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <p class="proj-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat porro, quas officia nemo enim voluptate consectetur quo, architecto ipsa nihil laudantium iste voluptatem odit cum repudiandae tenetur quaerat. Omnis, temporibus.</p>
+            </div>
+
+            <div class="project-3 proj">
+                <div class="image-effect">
+                    <div class="hovereffect">
+                       <img class="port-img img responsive" src="img/marielle-quizon.png" alt="Portfolio image 1">
+                            <div class="overlay">
+                                <h2>Portfolio v1</h2>
+                                <p>
+                                    <a href="#">Show Code Here</a>
+                                </p>
+                            </div>
+                    </div>
+                </div>
+                <p class="proj-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat porro, quas officia nemo enim voluptate consectetur quo, architecto ipsa nihil laudantium iste voluptatem odit cum repudiandae tenetur quaerat. Omnis, temporibus.</p>
+            </div>
+        </div>
+     </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-content">
+        <p class="footer-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat cumque eius officiis aperiam, corrupti veniam tenetur consequuntur totam, expedita saepe quidem excepturi cupiditate eos, temporibus numquam debitis velit dignissimos hic ab odio nostrum quos. Quaerat sed, ducimus impedit, mollitia, recusandae repellendus ipsam velit odio cum dolore cupiditate quia voluptatem sint!</p>
+        <div class="logo-wrapper">
+            <a href="https://www.linkedin.com/in/marielle-quizon-039126154/">
+                <i class="fa fa-linkedin logo"></i>
+            </a>
+
+            <a href="https://github.com/quizonmarielle">
+                <i class="fa fa-github logo"></i>
+            </a>
+
+            <a href="https://www.instagram.com/mariellequizon/">
+                <i class="fa fa-instagram logo"></i>
+            </a>
+        </div>
+
+        <p class="copyright">Made by Marielle Quizon. Copyright &copy; 2018  </p>
+
+    </div>
+</footer>
+</div>
+
+<!-- JS -->
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous">
+</script>
+<script src="preloader/loaders.css.js"></script>
+<script src="js/script.js"></script>
+
+    
+</body>
+</html>
