@@ -27,15 +27,8 @@
 
     @media only screen and (max-width: $bp-medium) {
         flex-direction: column;
-        transform: skewY(0deg);
         padding: 5rem;
     }
-
-    @media only screen and (max-width: $bp-large) {
-        transform: skewY(0deg);
-        padding: 5rem 0;
-    }
-    
 
     &__shape {
         width: 25rem;
@@ -44,7 +37,6 @@
         position: relative;
         border-radius: 50%;
         align-self: center;
-        backface-visibility: hidden;
         
 
         @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
@@ -126,7 +118,8 @@
         margin-top: -5rem;
         margin-left: 12.5rem;
         max-width: 50em;
-        font-size: 1.25rem;
+        font-size: 1.75rem;
+        opacity: 1;
 
         @media only screen and (max-width: $bp-large) {
             order: 3;

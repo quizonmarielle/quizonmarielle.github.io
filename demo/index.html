@@ -2,25 +2,17 @@
 <html class="sr">
 <head>
     <meta charset="utf-8" />
-    <title>HTML Video & Cards</title>
+    <title>Marielle Quizon</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Raleway:700|Source+Sans+Pro:700|Ubuntu:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-    <link rel="stylesheet" href="preloader/loaders.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- <link rel="stylesheet" href="css/animate.css"> -->
     <!-- JS -->
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
-<body onload="myFunction()">
-
-                <div class="loader" id="loader">
-                  <div class="loader-inner ball-pulse">
-                  
-                  </div>
-                </div>
+<body>
                 
-<div style="display:none;" class="page-content" id="myDiv">
     <div class="navigation">
         <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
     
@@ -32,11 +24,11 @@
     
         <nav class="navigation__nav">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>01</span>About Me</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>02</span>What I Do</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>03</span>Skills</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>04</span>Portfolio</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link"><span>05</span>Contact Me</a></li>
+                <li class="navigation__item"><a href="#about" class="navigation__link"><span>01</span>About Me</a></li>
+                <li class="navigation__item"><a href="#whatido" class="navigation__link"><span>02</span>What I Do</a></li>
+                <li class="navigation__item"><a href="#skills" class="navigation__link"><span>03</span>Skills</a></li>
+                <li class="navigation__item"><a href="#portfolio" class="navigation__link"><span>04</span>Portfolio</a></li>
+                <li class="navigation__item"><a href="#contact" class="navigation__link"><span>05</span>Contact Me</a></li>
             </ul>
         </nav>
     </div>
@@ -65,7 +57,7 @@
         </div>
     </header>
 
-    <section class="section-about">
+    <section class="section-about" id="about">
         <div class="row">
             <div class="about">     
                     <figure class="about__shape">
@@ -76,22 +68,29 @@
     
                     <div class="about__desc">
                         <h1 class="u-margin-bottom-small heading-tertiary">Meet Marielle</h1>
-                        <p class="about-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis officia architecto ea blanditiis dolor. Quas aliquid suscipit commodi possimus, tempore est odio alias aut fugiat aliquam perspiciatis ratione dolorem quaerat, odit esse hic ab quam ducimus? Quo repellendus consectetur dicta eligendi, rerum id laboriosam excepturi nam dolore voluptatibus consequuntur! Voluptatem quia possimus eius fuga adipisci, minima vero incidunt maxime vel! Labore similique, dolores impedit amet iusto incidunt accusantium nemo atque harum quas nesciunt ipsa fugit repellendus. Quos placeat obcaecati similique nulla ipsum quae reprehenderit, quaerat deserunt soluta in quis fugiat dicta. Iusto ducimus earum, id adipisci illo voluptatibus quidem commodi?</p>
+                        <p class="about-intro">Hi! I'm Marielle Quizon, a 20 yrs. old freelance front-end web developer based in Florida, USA.
+                            I studied web development for 2 and a half yrs. in college before I took the self-taught route.
+                            When I'm not coding, I spend most of my time with my family or friends, reading books, working-out or playing basketball.
+                        </p>
                     </div>
             </div>
         </div>
     </section>
 
-   <section class="section-whatido">
+   <section class="section-whatido" id="whatido">
        <div class="row">
-           <div class="whatido">
+           <div class="whatido wow fadeInUp slow">
            <h1 class="heading-secondary u-margin-bottom-small">What I Do?</h1>
-           <p class="whatido__desc u-center-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus deserunt similique nisi consectetur illum ipsum amet saepe, esse dolorem labore quo repellat, laboriosam tempora commodi magni maiores! Quisquam temporibus dicta earum illum cumque itaque doloremque, placeat suscipit praesentium nam repudiandae perspiciatis consectetur quas et inventore aliquam nostrum blanditiis iusto! Enim!</p>
+           <p class="whatido__desc u-center-text">
+                I create minimal but modern design websites using modern technologies keeping your website up to date, easy to maintain
+                and is compatible with any mobile-devices. During the development process, I make UX a priority to ensure
+                that users will leave with a quality experience.
+           </p>
            </div>
         </div>
    </section>
 
-   <section class="section-portfolio">
+   <section class="section-portfolio" id="portfolio">
     <div class="row">
         <h1 class="heading-portfolio u-center-text u-margin-bottom-big">Portfolio</h1>
 
@@ -108,7 +107,9 @@
                             </div>
                     </div>
                 </div>
-                <p class="proj-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat porro, quas officia nemo enim voluptate consectetur quo, architecto ipsa nihil laudantium iste voluptatem odit cum repudiandae tenetur quaerat. Omnis, temporibus.</p>
+                <p class="proj-desc">Nexter – A real-estate website. The design is not mine but this is pure hand-coded by me.
+                        <br>Technologies: HTML/CSS
+                </p>
             </div>
 
             <div class="project-2 proj">
@@ -123,7 +124,9 @@
                             </div>
                     </div>
                 </div>
-                <p class="proj-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat porro, quas officia nemo enim voluptate consectetur quo, architecto ipsa nihil laudantium iste voluptatem odit cum repudiandae tenetur quaerat. Omnis, temporibus.</p>
+                <p class="proj-desc">Natours – A travel agency website. The design is not mine but this is pure hand-coded by me.
+                    <br>Technologies: HTML/CSS
+                </p>
             </div>
 
             <div class="project-3 proj">
@@ -138,15 +141,18 @@
                             </div>
                     </div>
                 </div>
-                <p class="proj-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat porro, quas officia nemo enim voluptate consectetur quo, architecto ipsa nihil laudantium iste voluptatem odit cum repudiandae tenetur quaerat. Omnis, temporibus.</p>
+                <p class="proj-desc">The v1 of my portfolio which was made on November 2017.
+                    <br>Technologies: HTML/CSS/JS
+                </p>
             </div>
         </div>
      </div>
 </section>
 
-<footer class="footer">
+<footer class="footer" id="contact">
     <div class="footer-content">
-        <p class="footer-desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat cumque eius officiis aperiam, corrupti veniam tenetur consequuntur totam, expedita saepe quidem excepturi cupiditate eos, temporibus numquam debitis velit dignissimos hic ab odio nostrum quos. Quaerat sed, ducimus impedit, mollitia, recusandae repellendus ipsam velit odio cum dolore cupiditate quia voluptatem sint!</p>
+        <h1 class="footer-header u-margin-bottom-medium">Get In Touch</h1>
+        <p class="footer-desc">Interested for a collaboration? Or just want to say hello? Feel free to email me. I'm also available for project or any kind of opportunities.</p>
         <div class="logo-wrapper">
             <a href="https://www.linkedin.com/in/marielle-quizon-039126154/">
                 <i class="fa fa-linkedin logo"></i>
@@ -165,17 +171,11 @@
 
     </div>
 </footer>
-</div>
 
 <!-- JS -->
-<script
-src="https://code.jquery.com/jquery-3.3.1.min.js"
-integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-crossorigin="anonymous">
-</script>
-<script src="preloader/loaders.css.js"></script>
+ <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="js/script.js"></script>
 
-    
 </body>
 </html>

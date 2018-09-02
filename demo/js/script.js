@@ -1,15 +1,3 @@
-var myVar;
-
-function myFunction() {
-    myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("myDiv").style.display = "block";
-}
-
-
 window.sr = new ScrollReveal();
 
 sr.reveal('.heading-primary--sub', {
@@ -22,13 +10,6 @@ sr.reveal('.heading-primary--sub-2', {
     duration: 2000,
     origin: 'bottom',
     delay: 3000
-});
-
-sr.reveal('.btn', {
-    duration: 2000,
-    origin: 'bottom',
-    delay: 4000,
-    distance: '50px'
 });
 
 sr.reveal('.about__shape', {
@@ -70,5 +51,3 @@ sr.reveal('.footer-content', {
     origin: 'bottom',
     distance: '50px'
 });
-
-
