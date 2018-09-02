@@ -63,7 +63,7 @@ body {
         font-size: 1.5rem;
         font-weight: 700;
         letter-spacing: 1.5rem;
-        margin-top: .3rem;
+        margin-top: 1.8rem;
     }
 
 
@@ -92,6 +92,11 @@ body {
 
     @media only screen and (max-width: $bp-medium) {
         margin-top: 2rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        font-size: 4rem;
+        margin: 4rem 0;
     }
 }
 

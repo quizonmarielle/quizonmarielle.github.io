@@ -89,7 +89,7 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     letter-spacing: 1.5rem;
-    margin-top: .3rem; }
+    margin-top: 1.8rem; }
 
 .heading-secondary {
   color: #fff;
@@ -107,6 +107,10 @@ body {
   @media only screen and (max-width: 50em) {
     .heading-tertiary {
       margin-top: 2rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .heading-tertiary {
+      font-size: 4rem;
+      margin: 4rem 0; } }
 
 .heading-portfolio {
   letter-spacing: .2rem;
@@ -181,7 +185,7 @@ html.sr .load-hidden {
   @media only screen and (max-width: 37.5em) {
     .section-about {
       height: auto;
-      padding: 5rem; } }
+      padding: 6rem 4rem; } }
 
 .about {
   display: flex;
@@ -194,6 +198,9 @@ html.sr .load-hidden {
     .about {
       flex-direction: column;
       padding: 5rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .about {
+      padding: 2.5rem; } }
   .about__shape {
     width: 25rem;
     height: 25rem;
@@ -276,11 +283,7 @@ html.sr .load-hidden {
         padding: 0; } }
     @media only screen and (max-width: 37.5em) {
       .about__desc {
-        padding: 0 5rem;
         margin-bottom: 0; } }
-    @media only screen and (max-width: 26.5em) {
-      .about__desc {
-        padding: 0 2.5rem; } }
 
 .bg-video {
   position: absolute;
@@ -356,16 +359,13 @@ html.sr .load-hidden {
     @media only screen and (max-width: 37.5em) {
       .footer-content {
         width: 100%;
-        padding: 8rem; } }
+        padding: 6rem; } }
   .footer-desc {
     font-size: 2rem;
     margin-bottom: 5rem; }
-    @media only screen and (max-width: 37.5em) {
-      .footer-desc {
-        margin-top: 12rem; } }
   .footer .copyright {
     margin-top: 2rem;
-    font-size: 1.5rem; }
+    font-size: 1.8rem; }
   .footer .logo-wrapper .logo {
     color: #fff;
     font-size: 3rem;
@@ -409,6 +409,10 @@ html.sr .load-hidden {
     position: absolute;
     top: 7rem;
     left: 7rem; }
+    @media only screen and (max-width: 37.5em) {
+      .header__logo-box {
+        top: 8.5rem;
+        right: 8.5rem; } }
   .header__logo {
     height: 3.5rem; }
   .header__text-box {
@@ -587,7 +591,7 @@ html.sr .load-hidden {
           font-size: 1.5rem; } }
       @media only screen and (max-width: 26.5em) {
         .section-portfolio .proj-desc {
-          font-size: 1.75rem; } }
+          font-size: 1.85rem; } }
   .section-portfolio .image-effect {
     width: 100%; }
   .section-portfolio .hovereffect {
