@@ -29,8 +29,17 @@
     }
 
     &-desc {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+
+        @media only screen and (max-width: $bp-small) {
+            margin-bottom: 4rem;
+        }
+    }
+
+    &-email {
         font-size: 2rem;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
     }
 
     .copyright {
@@ -39,6 +48,8 @@
     }
 
     .logo-wrapper {
+        margin-top: 2rem;
+
         .logo {
             color: $color-white;
             font-size: 3rem;
