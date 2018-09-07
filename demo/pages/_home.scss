@@ -56,36 +56,47 @@
         @media only screen and (max-width: $bp-large) {
            flex-wrap: wrap;
         }
+
+        &-proj {
+            margin: 0 8rem;
+            text-align: center;
+            
+            &__desc {
+                font-size: 1.75rem;
+
+                @media only screen and (max-width: $bp-large) {
+                    text-align: center;
+                    width: 70%;
+                }
+    
+                @media only screen and (max-width: $bp-medium) {
+                    width: 100%;
+                }
+    
+                @media only screen and (max-width: $bp-small) {
+                    font-size: 1.5rem;
+                }
+    
+                @media only screen and (max-width: $bp-smallest) {
+                    font-size: 1.85rem;
+                }
+            }
+
+            &__tech {
+                line-height: 6rem;
+                font-size: 1.75rem;
+
+                @media only screen and (max-width: $bp-small) {
+                    line-height: 2rem;
+                    margin-bottom: 5rem;
+                    margin-top: 2rem;
+                }
+            }
+        }
     }
 
     .port-img {
         width: 100%;
-    }
-
-    .proj {
-        margin: 0 8rem;
-
-        &-desc {
-            font-size: 1.5rem;
-
-            @media only screen and (max-width: $bp-large) {
-                text-align: center;
-                width: 70%;
-                margin: 0 auto 5rem auto;
-            }
-
-            @media only screen and (max-width: $bp-medium) {
-                width: 100%;
-            }
-
-            @media only screen and (max-width: $bp-small) {
-                font-size: 1.5rem;
-            }
-
-            @media only screen and (max-width: $bp-smallest) {
-                font-size: 1.85rem;
-            }
-        }
     }
 
     .image-effect {
@@ -148,20 +159,20 @@
         font-size: 17px;
         background-color: transparent;
         color: #FFF;
-        padding: 1em 0;
+        padding: 0.5em 0;
         opacity: 0;
         filter: alpha(opacity=0);
         -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
         transition: opacity 0.35s, transform 0.35s;
         -webkit-transform: translate3d(0,-100%,0);
         transform: translate3d(0,-100%,0);
-
+        
         @media only screen and (max-width: $bp-large) {
             padding: 1.5em 0;
         }
 
         @media only screen and (max-width: $bp-small) {
-            padding: 0.8em 0;
+            padding: 0.5em 0;
         }
       }
 
@@ -170,12 +181,12 @@
           text-transform: uppercase;
           border: 1px solid #fff;
           display: inline-block;
-          margin: 0.5rem 0;
+          margin: 1rem 0;
           padding: 7px 14px;
+      }
 
-        @media only screen and (max-width: $bp-large) {
-            font-size: 1.5rem;
-        }
+      .portfolio-link {
+          font-size: 1.25rem;
       }
       
       .hovereffect a, .hovereffect p {
@@ -186,6 +197,7 @@
         transition: opacity 0.35s, transform 0.35s;
         -webkit-transform: translate3d(0,100%,0);
         transform: translate3d(0,100%,0);
+        
       }
       
       .hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {

@@ -42,11 +42,6 @@ body {
     &--type__anim-1 {
         animation: typing 3s steps(40, end),
         blink-caret 1s step-end infinite;
-
-        // @media only screen and (max-width: $bp-large) {
-        //     animation: typing 3.5s steps(40, end),
-        //     blink-caret 1s step-end infinite;
-        // }
     }
 
     &--sub {
@@ -65,13 +60,6 @@ body {
         letter-spacing: 1.5rem;
         margin-top: 1.8rem;
     }
-
-
-    // &--type__anim-2 {
-    //     animation: type 4s steps(35) 4s 1 normal both,
-    //     blinkTextCursor 500ms steps(40) infinite normal;
-    // }
-
 }
 
 .heading-secondary {
@@ -125,6 +113,8 @@ body {
         font-size: 1.75rem;
     }
 }
+
+// What I Do
 
 .whatido__desc {
     font-size: 2rem;
