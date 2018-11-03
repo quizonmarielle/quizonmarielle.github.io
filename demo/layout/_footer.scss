@@ -1,0 +1,64 @@
+.footer {
+    background-color: #333;
+    margin-top: -10rem;
+
+    display: flex;
+    justify-content: center;
+
+    &__content {
+        margin: 15rem auto 0 auto;
+        padding: 10rem 8rem;
+        width: 50%;
+        text-align: center;
+        display: block;
+        color: $color-white;
+
+        @media only screen and (max-width: $bp-largest) {
+            padding: 10rem 5rem;
+            width: 70%;
+        }
+
+        @media only screen and (max-width: $bp-medium) {
+            width: 80%;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+            width: 100%;
+            padding: 6rem;
+        }
+    }
+
+    &__header {
+        font-size: 4rem;
+    }
+
+    &__desc {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+
+        @media only screen and (max-width: $bp-small) {
+            margin-bottom: 4rem;
+        }
+    }
+
+    &__email {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    &__copyright {
+        margin-top: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .logo-wrapper {
+        margin-top: 2rem;
+
+        .logo {
+            color: $color-white;
+            font-size: 3rem;
+            padding: 1.15rem;
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+{
+  "name": "video_and_cards",
+  "version": "1.0.0",
+  "description": "Applying what I've learned",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Marielle Quizon",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
